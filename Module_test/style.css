@@ -1,0 +1,152 @@
+
+*{
+    background-color: black;
+    color:white;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+#search{
+    width: 500px;
+    height: 30px;
+    background-color: #262626;
+    ;
+}
+
+.first-section{
+    /* border: 1px solid grey; */
+  border-radius: 10px; 
+  margin:20px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin:0px 0px 20px 0px;
+  }
+
+  .header h1{
+    color:white;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:5px;
+    color: #262626;
+    
+  }
+  
+  .buttons button {
+    margin:0px 40px;
+    border-radius: 5px;
+    padding:10px 20px;
+    background-color: #262626;
+    ;
+  }
+
+
+/*   About us */
+.second-section{
+    /* border: 1px solid grey; */
+    border-radius: 10px; 
+    margin:20px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+  }
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+ .about-us img{
+    background-color: yellow;
+    padding:23px;
+    border-radius:35px;
+ }
+ .about-us div{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin:20px;
+ }
+
+ h1{
+    margin-left: 20px;
+ }
+
+ #clock {
+    padding:0;
+    border-radius:150px;
+ }
+
+ .about-us button{
+    background-color: yellow;
+    color:black;
+    border-radius: 20px;
+    padding:10px;
+    width: 125px;
+    height: 60px;
+ }
+
+
+ /* Our Categories */
+
+ .category {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    margin:20px;
+    box-sizing: border-box;
+  }
+  .item {
+    flex:25%;
+
+  }
+  .category .item{
+    border: 1px solid grey;
+    border-radius: 10px; 
+    padding:20px ;
+    margin:20px;
+  }
+  .category button{
+    background-color: yellow;
+    color:black;
+    border-radius: 20px;
+    padding:10px;
+    width: 100px;
+    height: 50px;
+  }
+ /* footer */
+.footer{
+   display: flex;
+   justify-content: center;
+   margin:20px;
+   /* border: 1px solid grey; */
+   border-radius: 10px; 
+}
+.footer .item{
+    padding:20px;
+    margin:20px;
+}
+.footer a{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+  
