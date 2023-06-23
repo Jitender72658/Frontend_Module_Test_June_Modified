@@ -150,15 +150,20 @@ body {
   }
  /* footer */
 .footer{
-   display: flex;
-   justify-content: center;
+    display: flex;
+   justify-content: space-evenly; 
    margin:20px;
-   /* border: 1px solid grey; */
-   border-radius: 10px; 
+   border:none;
+   border-radius: 20px; 
+   background-color: #262626; 
 }
-.footer .item{
-    padding:20px;
+.item>a, .item>h1, .item>h2, .item>p{
+  background-color: #262626;
+}
+.footer div{
+   padding:20px;
     margin:20px;
+    background-color: #262626;
 }
 .footer a{
     display: block;
@@ -167,4 +172,5 @@ body {
 a{
     text-decoration: none;
 }
+
   
